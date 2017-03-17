@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		437451FA193D163700654986 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437451FA193D163700654986 /* Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437451FE193D163700654986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437451FF193D163700654986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43745201193D163700654986 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		43745205193D163800654986 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		43745208193D163800654986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4374520A193D163800654986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		43745210193D163800654986 /* FlappyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43745210193D163800654986 /* Flappy Bird.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Bird.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43745215193D163800654986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43745216193D163800654986 /* FlappyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdTests.swift; sourceTree = "<group>"; };
 		437A3DB9193D326A00909BA0 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 		437451FB193D163700654986 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				437451FA193D163700654986 /* FlappyBird.app */,
-				43745210193D163800654986 /* FlappyBirdTests.xctest */,
+				437451FA193D163700654986 /* Flappy Bird.app */,
+				43745210193D163800654986 /* Flappy Bird.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		437451F9193D163700654986 /* FlappyBird */ = {
+		437451F9193D163700654986 /* Flappy Bird */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4374521A193D163800654986 /* Build configuration list for PBXNativeTarget "FlappyBird" */;
+			buildConfigurationList = 4374521A193D163800654986 /* Build configuration list for PBXNativeTarget "Flappy Bird" */;
 			buildPhases = (
 				437451F6193D163700654986 /* Sources */,
 				437451F7193D163700654986 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = FlappyBird;
+			name = "Flappy Bird";
 			productName = FlappyBird;
-			productReference = 437451FA193D163700654986 /* FlappyBird.app */;
+			productReference = 437451FA193D163700654986 /* Flappy Bird.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4374520F193D163800654986 /* FlappyBirdTests */ = {
+		4374520F193D163800654986 /* Flappy BirdTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4374521D193D163800654986 /* Build configuration list for PBXNativeTarget "FlappyBirdTests" */;
+			buildConfigurationList = 4374521D193D163800654986 /* Build configuration list for PBXNativeTarget "Flappy BirdTests" */;
 			buildPhases = (
 				4374520C193D163800654986 /* Sources */,
 				4374520D193D163800654986 /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				43745212193D163800654986 /* PBXTargetDependency */,
 			);
-			name = FlappyBirdTests;
+			name = "Flappy BirdTests";
 			productName = FlappyBirdTests;
-			productReference = 43745210193D163800654986 /* FlappyBirdTests.xctest */;
+			productReference = 43745210193D163800654986 /* Flappy Bird.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 437451F5193D163700654986 /* Build configuration list for PBXProject "FlappyBird" */;
+			buildConfigurationList = 437451F5193D163700654986 /* Build configuration list for PBXProject "Flappy Bird" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				437451F9193D163700654986 /* FlappyBird */,
-				4374520F193D163800654986 /* FlappyBirdTests */,
+				437451F9193D163700654986 /* Flappy Bird */,
+				4374520F193D163800654986 /* Flappy BirdTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		43745212193D163800654986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 437451F9193D163700654986 /* FlappyBird */;
+			target = 437451F9193D163700654986 /* Flappy Bird */;
 			targetProxy = 43745211193D163800654986 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +344,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Bird";
 			};
 			name = Debug;
 		};
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Bird";
 			};
 			name = Release;
 		};
@@ -374,7 +374,7 @@
 				INFOPLIST_FILE = FlappyBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Bird";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -390,7 +390,7 @@
 				INFOPLIST_FILE = FlappyBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Bird";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		437451F5193D163700654986 /* Build configuration list for PBXProject "FlappyBird" */ = {
+		437451F5193D163700654986 /* Build configuration list for PBXProject "Flappy Bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43745218193D163800654986 /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4374521A193D163800654986 /* Build configuration list for PBXNativeTarget "FlappyBird" */ = {
+		4374521A193D163800654986 /* Build configuration list for PBXNativeTarget "Flappy Bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4374521B193D163800654986 /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4374521D193D163800654986 /* Build configuration list for PBXNativeTarget "FlappyBirdTests" */ = {
+		4374521D193D163800654986 /* Build configuration list for PBXNativeTarget "Flappy BirdTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4374521E193D163800654986 /* Debug */,
